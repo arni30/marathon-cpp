@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/walletManager.dir/main.cpp.o CMakeFiles/walletManager.dir/walletManager.cpp.o  -o walletManager 

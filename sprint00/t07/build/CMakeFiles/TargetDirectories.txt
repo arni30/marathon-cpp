@@ -1,3 +1,0 @@
-/home/oarnopolin/Desktop/sprint00/t07/build/CMakeFiles/rebuild_cache.dir
-/home/oarnopolin/Desktop/sprint00/t07/build/CMakeFiles/edit_cache.dir
-/home/oarnopolin/Desktop/sprint00/t07/build/CMakeFiles/inventory.dir

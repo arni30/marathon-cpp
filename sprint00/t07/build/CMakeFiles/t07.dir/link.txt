@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/t07.dir/src/inventory.cpp.o CMakeFiles/t07.dir/main.cpp.o  -o t07 

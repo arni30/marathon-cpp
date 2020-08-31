@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/oarnopolin/Desktop/marathon-cpp/sprint01/t01/src/moveAlong.cpp
+moveAlong.h
+/Users/oarnopolin/Desktop/marathon-cpp/sprint01/t01/src/moveAlong.h
+
+/Users/oarnopolin/Desktop/marathon-cpp/sprint01/t01/src/moveAlong.h
+

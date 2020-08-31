@@ -1,0 +1,3 @@
+/Users/oarnopolin/Desktop/marathon-cpp/sprint01/t01/build/CMakeFiles/rebuild_cache.dir
+/Users/oarnopolin/Desktop/marathon-cpp/sprint01/t01/build/CMakeFiles/edit_cache.dir
+/Users/oarnopolin/Desktop/marathon-cpp/sprint01/t01/build/CMakeFiles/t01.dir

@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/printDialog.dir/printDialog.cpp.o  -o printDialog 
