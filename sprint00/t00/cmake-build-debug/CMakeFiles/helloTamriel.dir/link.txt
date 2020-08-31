@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/helloTamriel.dir/helloTamriel.cpp.o  -o helloTamriel 

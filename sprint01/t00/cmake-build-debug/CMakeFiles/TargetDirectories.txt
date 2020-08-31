@@ -1,0 +1,3 @@
+/home/oarnopolin/Desktop/sprint01/t00/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/oarnopolin/Desktop/sprint01/t00/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/oarnopolin/Desktop/sprint01/t00/cmake-build-debug/CMakeFiles/t00.dir

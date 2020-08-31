@@ -1,0 +1,7 @@
+/home/oarnopolin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/oarnopolin/Desktop/sprint00/t05
+-- Configuring done
+CMake Error at CMakeLists.txt:9 (add_executable):
+  No SOURCES given to target: t05
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

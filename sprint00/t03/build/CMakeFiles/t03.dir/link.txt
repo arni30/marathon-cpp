@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/t03.dir/castSpells.cpp.o  -o t03 

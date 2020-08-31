@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/oarnopolin/Desktop/sprint00/t06/main.cpp
+meadSong.h
+/home/oarnopolin/Desktop/sprint00/t06/meadSong.h
+
+/home/oarnopolin/Desktop/sprint00/t06/meadSong.h
+iostream
+-
+
