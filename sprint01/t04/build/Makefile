@@ -67,10 +67,10 @@ RM = /Users/oarnopolin/.brew/Cellar/cmake/3.18.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t01
+CMAKE_SOURCE_DIR = /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t04
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t01/build
+CMAKE_BINARY_DIR = /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t04/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t01/build/CMakeFiles /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t01/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t04/build/CMakeFiles /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t04/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t01/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t04/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -130,30 +130,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named moveAlong
+# Target rules for targets named stdAlgoV1
 
 # Build rule for target.
-moveAlong: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 moveAlong
-.PHONY : moveAlong
+stdAlgoV1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stdAlgoV1
+.PHONY : stdAlgoV1
 
 # fast build rule for target.
-moveAlong/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveAlong.dir/build.make CMakeFiles/moveAlong.dir/build
-.PHONY : moveAlong/fast
+stdAlgoV1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stdAlgoV1.dir/build.make CMakeFiles/stdAlgoV1.dir/build
+.PHONY : stdAlgoV1/fast
 
 #=============================================================================
-# Target rules for targets named moveAlong_lib
+# Target rules for targets named stdAlgoV1_lib
 
 # Build rule for target.
-moveAlong_lib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 moveAlong_lib
-.PHONY : moveAlong_lib
+stdAlgoV1_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stdAlgoV1_lib
+.PHONY : stdAlgoV1_lib
 
 # fast build rule for target.
-moveAlong_lib/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/moveAlong_lib.dir/build.make src/CMakeFiles/moveAlong_lib.dir/build
-.PHONY : moveAlong_lib/fast
+stdAlgoV1_lib/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/stdAlgoV1_lib.dir/build.make src/CMakeFiles/stdAlgoV1_lib.dir/build
+.PHONY : stdAlgoV1_lib/fast
 
 main.o: main.cpp.o
 
@@ -161,7 +161,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveAlong.dir/build.make CMakeFiles/moveAlong.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stdAlgoV1.dir/build.make CMakeFiles/stdAlgoV1.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -170,7 +170,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveAlong.dir/build.make CMakeFiles/moveAlong.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stdAlgoV1.dir/build.make CMakeFiles/stdAlgoV1.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -179,7 +179,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveAlong.dir/build.make CMakeFiles/moveAlong.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stdAlgoV1.dir/build.make CMakeFiles/stdAlgoV1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -190,8 +190,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... moveAlong"
-	@echo "... moveAlong_lib"
+	@echo "... stdAlgoV1"
+	@echo "... stdAlgoV1_lib"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

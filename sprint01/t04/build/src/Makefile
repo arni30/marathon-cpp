@@ -67,10 +67,10 @@ RM = /Users/oarnopolin/.brew/Cellar/cmake/3.18.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t01
+CMAKE_SOURCE_DIR = /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t04
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t01/build
+CMAKE_BINARY_DIR = /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t04/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,14 +99,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t01/build/CMakeFiles /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t01/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t01/build/CMakeFiles 0
+	cd /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t04/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t04/build/CMakeFiles /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t04/build/src//CMakeFiles/progress.marks
+	cd /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t04/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t04/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t04/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -116,71 +116,60 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t04/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t04/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t04/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named moveAlong
+# Convenience name for target.
+src/CMakeFiles/stdAlgoV1_lib.dir/rule:
+	cd /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t04/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/stdAlgoV1_lib.dir/rule
+.PHONY : src/CMakeFiles/stdAlgoV1_lib.dir/rule
 
-# Build rule for target.
-moveAlong: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 moveAlong
-.PHONY : moveAlong
+# Convenience name for target.
+stdAlgoV1_lib: src/CMakeFiles/stdAlgoV1_lib.dir/rule
 
-# fast build rule for target.
-moveAlong/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveAlong.dir/build.make CMakeFiles/moveAlong.dir/build
-.PHONY : moveAlong/fast
-
-#=============================================================================
-# Target rules for targets named moveAlong_lib
-
-# Build rule for target.
-moveAlong_lib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 moveAlong_lib
-.PHONY : moveAlong_lib
+.PHONY : stdAlgoV1_lib
 
 # fast build rule for target.
-moveAlong_lib/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/moveAlong_lib.dir/build.make src/CMakeFiles/moveAlong_lib.dir/build
-.PHONY : moveAlong_lib/fast
+stdAlgoV1_lib/fast:
+	cd /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t04/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/stdAlgoV1_lib.dir/build.make src/CMakeFiles/stdAlgoV1_lib.dir/build
+.PHONY : stdAlgoV1_lib/fast
 
-main.o: main.cpp.o
+stdAlgoV1.o: stdAlgoV1.cpp.o
 
-.PHONY : main.o
+.PHONY : stdAlgoV1.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveAlong.dir/build.make CMakeFiles/moveAlong.dir/main.cpp.o
-.PHONY : main.cpp.o
+stdAlgoV1.cpp.o:
+	cd /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t04/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/stdAlgoV1_lib.dir/build.make src/CMakeFiles/stdAlgoV1_lib.dir/stdAlgoV1.cpp.o
+.PHONY : stdAlgoV1.cpp.o
 
-main.i: main.cpp.i
+stdAlgoV1.i: stdAlgoV1.cpp.i
 
-.PHONY : main.i
+.PHONY : stdAlgoV1.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveAlong.dir/build.make CMakeFiles/moveAlong.dir/main.cpp.i
-.PHONY : main.cpp.i
+stdAlgoV1.cpp.i:
+	cd /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t04/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/stdAlgoV1_lib.dir/build.make src/CMakeFiles/stdAlgoV1_lib.dir/stdAlgoV1.cpp.i
+.PHONY : stdAlgoV1.cpp.i
 
-main.s: main.cpp.s
+stdAlgoV1.s: stdAlgoV1.cpp.s
 
-.PHONY : main.s
+.PHONY : stdAlgoV1.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveAlong.dir/build.make CMakeFiles/moveAlong.dir/main.cpp.s
-.PHONY : main.cpp.s
+stdAlgoV1.cpp.s:
+	cd /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t04/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/stdAlgoV1_lib.dir/build.make src/CMakeFiles/stdAlgoV1_lib.dir/stdAlgoV1.cpp.s
+.PHONY : stdAlgoV1.cpp.s
 
 # Help Target
 help:
@@ -190,11 +179,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... moveAlong"
-	@echo "... moveAlong_lib"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... stdAlgoV1_lib"
+	@echo "... stdAlgoV1.o"
+	@echo "... stdAlgoV1.i"
+	@echo "... stdAlgoV1.s"
 .PHONY : help
 
 
@@ -206,6 +194,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t04/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

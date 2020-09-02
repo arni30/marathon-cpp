@@ -1,3 +1,6 @@
 /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t01/build/CMakeFiles/rebuild_cache.dir
 /Users/oarnopolin/Desktop/marathon-cpp/sprint01/t01/build/CMakeFiles/edit_cache.dir
-/Users/oarnopolin/Desktop/marathon-cpp/sprint01/t01/build/CMakeFiles/t01.dir
+/Users/oarnopolin/Desktop/marathon-cpp/sprint01/t01/build/CMakeFiles/moveAlong.dir
+/Users/oarnopolin/Desktop/marathon-cpp/sprint01/t01/build/src/CMakeFiles/rebuild_cache.dir
+/Users/oarnopolin/Desktop/marathon-cpp/sprint01/t01/build/src/CMakeFiles/edit_cache.dir
+/Users/oarnopolin/Desktop/marathon-cpp/sprint01/t01/build/src/CMakeFiles/moveAlong_lib.dir

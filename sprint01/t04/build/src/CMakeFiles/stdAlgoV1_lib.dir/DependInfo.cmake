@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/oarnopolin/Desktop/marathon-cpp/sprint01/t01/main.cpp" "/Users/oarnopolin/Desktop/marathon-cpp/sprint01/t01/build/CMakeFiles/moveAlong.dir/main.cpp.o"
+  "/Users/oarnopolin/Desktop/marathon-cpp/sprint01/t04/src/stdAlgoV1.cpp" "/Users/oarnopolin/Desktop/marathon-cpp/sprint01/t04/build/src/CMakeFiles/stdAlgoV1_lib.dir/stdAlgoV1.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
@@ -14,7 +14,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/oarnopolin/Desktop/marathon-cpp/sprint01/t01/build/src/CMakeFiles/moveAlong_lib.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

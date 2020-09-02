@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/oarnopolin/Desktop/marathon-cpp/sprint01/t01/src/moveAlong.cpp" "/Users/oarnopolin/Desktop/marathon-cpp/sprint01/t01/build/src/CMakeFiles/moveAlong_lib.dir/moveAlong.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
