@@ -1,6 +1,0 @@
-/Users/oarnopolin/Desktop/marathon-cpp/sprint01/t04/build/CMakeFiles/rebuild_cache.dir
-/Users/oarnopolin/Desktop/marathon-cpp/sprint01/t04/build/CMakeFiles/edit_cache.dir
-/Users/oarnopolin/Desktop/marathon-cpp/sprint01/t04/build/CMakeFiles/stdAlgoV1.dir
-/Users/oarnopolin/Desktop/marathon-cpp/sprint01/t04/build/src/CMakeFiles/rebuild_cache.dir
-/Users/oarnopolin/Desktop/marathon-cpp/sprint01/t04/build/src/CMakeFiles/edit_cache.dir
-/Users/oarnopolin/Desktop/marathon-cpp/sprint01/t04/build/src/CMakeFiles/stdAlgoV1_lib.dir

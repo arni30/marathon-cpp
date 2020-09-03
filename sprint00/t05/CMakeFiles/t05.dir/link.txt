@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/t05.dir/main.cpp.o  -o t05 

@@ -4,4 +4,4 @@ project(automaton)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(automaton main.cpp)
-add_executable(main main.cpp)
+set_target_properties(automaton PROPERTIES RUNTIME_OUTPUT_DIRECTORY "../")

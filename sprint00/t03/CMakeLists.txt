@@ -4,3 +4,4 @@ project(t03)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(castSpells castSpells.cpp castSpells.h)
+set_target_properties(castSpells PROPERTIES RUNTIME_OUTPUT_DIRECTORY "../")

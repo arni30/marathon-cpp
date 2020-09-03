@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/oarnopolin/Desktop/marathon-cpp/sprint00/t07/src/commands.cpp
+inventory.h
+/Users/oarnopolin/Desktop/marathon-cpp/sprint00/t07/src/inventory.h
+
+/Users/oarnopolin/Desktop/marathon-cpp/sprint00/t07/src/inventory.cpp
+inventory.h
+/Users/oarnopolin/Desktop/marathon-cpp/sprint00/t07/src/inventory.h
+
+/Users/oarnopolin/Desktop/marathon-cpp/sprint00/t07/src/inventory.h
+iostream
+-
+string
+-
+vector
+-
+sstream
+-
+algorithm
+-
+list
+-
+
+/Users/oarnopolin/Desktop/marathon-cpp/sprint00/t07/src/trim.cpp
+inventory.h
+/Users/oarnopolin/Desktop/marathon-cpp/sprint00/t07/src/inventory.h
+
