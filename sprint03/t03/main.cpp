@@ -6,6 +6,6 @@
 #include"sumFileData.h"
 
 int main(int argc, char** argv) {
-    std::cout << sumFileData<double>("example1.txt") << std::endl;
+    std::cout << sumFileData<int>("example.txt") << std::endl;
     return 0;
 }
