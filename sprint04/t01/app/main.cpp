@@ -18,14 +18,14 @@ int getDemage(int argc, char** argv, int flag ) {
     }
     try {
         if (flag == 1) {
-            damage = std::stoi(argv[1]);
+            damage = std::stoi(argv[1], &index);
             check_idx(argv[1], index);
         }
         else if (flag == 2) {
-            damage = std::stoi(argv[2]);
+            damage = std::stoi(argv[2], &index);
             check_idx(argv[1], index);
         }
-        if (damage < 10 || damage > 20)
+        else if (damage < 10 || damage > 20)
             throw 1;
 
     }

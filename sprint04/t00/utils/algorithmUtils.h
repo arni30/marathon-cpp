@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include <algorithm>
 // [from, to]
 namespace Utils {
     template <typename T>
@@ -105,12 +106,22 @@ namespace Utils {
 
     template <class Collection>
     void Sort(Collection& c) {
-        std::sort(c.begin(), c.end());
+        for (typename Collection::iterator i = c.begin(); i != c.end(); ++i) {
+            for (typename Collection::iterator j = c.begin(); j != i; ++j) {
+                if (*i < *j)
+                    std::iter_swap(i, j);
+            }
+        }
     }
 
     template <class Collection, class Comp>
     void Sort(Collection& c, Comp&& comparator) {
-        std::sort(c.begin(), c.end(), comparator);
+        for (typename Collection::iterator i = c.begin(); i != c.end(); ++i) {
+            for (typename Collection::iterator j = c.begin(); j != i; ++j) {
+                if (comparator(*i, *j))
+                    std::iter_swap(i, j);
+            }
+        }
     }
 
 // remove all non-unique elements in the collection
