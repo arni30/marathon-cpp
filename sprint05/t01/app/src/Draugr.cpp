@@ -1,11 +1,10 @@
 #include "Draugr.h"
 
-Draugr::Draugr() :m_health(100), m_frostResist(50){
-    std::cout << "Draugr (" << m_health << " " << "health, " << m_frostResist << "% frost resist) shouts:" << std::endl;
-}
+//Draugr::Draugr() :m_health(100), m_frostResist(50){
+//    std::cout << "Draugr (" << m_health << " " << "health, " << m_frostResist << "% frost resist) shouts:" << std::endl;
+//}
 
 void Draugr::shoutPhrase(int shoutNumber) const {
-
     std::map<int, std::string>il{
         {0, "Qiilaan Us Dilon!"},
         {1, "Bolog Aaz, Mal Lir!"},
@@ -17,11 +16,5 @@ void Draugr::shoutPhrase(int shoutNumber) const {
         {7, "Aav Dilon!"},
         {8, "Sovngarde Saraan!"}
     };
-    try {
-        std::cout << il.at(shoutNumber) << std::endl;
-    }
-    catch (...) {
-        std::cerr << "Invalid shoutNumber" << std::endl;
-        exit(1);
-    }
+    std::cout << il.at(shoutNumber) << std::endl;
 }
