@@ -1,9 +1,9 @@
-#include "src/Weapon.h"
-#include "src/Soldier.h"
-#include "src/ImperialSoldier.h"
-#include "src/StormcloakSoldier.h"
-#include "src/Sword.h"
-#include "src/Axe.h"
+#include "Weapon.h"
+#include "Soldier.h"
+#include "ImperialSoldier.h"
+#include "StormcloakSoldier.h"
+#include "Sword.h"
+#include "Axe.h"
 
 void check_idx(char *str, size_t& index) {
     if (str[index] != '\0')

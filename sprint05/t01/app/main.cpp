@@ -1,4 +1,4 @@
-#include "src/Draugr.h"
+#include "Draugr.h"
 
 void defaultCreate(int shout) {
     Draugr draugr = Draugr();
