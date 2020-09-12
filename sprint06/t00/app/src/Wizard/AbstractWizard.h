@@ -4,11 +4,15 @@
 
 #ifndef MIGHTYWIZARD_ABSTRACTWIZARD_H
 #define MIGHTYWIZARD_ABSTRACTWIZARD_H
-
+#include <string>
+#include "../Food/FoodItem.h"
 
 class AbstractWizard {
-    public:
-        virtual void deductFoodType() = 0;
+    protected:
+        AbstractWizard(const std::string& name);
+        virtual FoodType deductFoodType(FoodItem *item) = 0;
+    private:
+        std::string m_name;
 };
 
 
